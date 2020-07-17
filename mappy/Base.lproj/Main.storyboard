@@ -2804,6 +2804,23 @@
                                     <action selector="hotel3:" destination="pug-h4-SxN" eventType="touchUpInside" id="eQk-ed-exC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="caL-by-RSK">
+                                <rect key="frame" x="303" y="839" width="85" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="eap-vx-H3c"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Lnv-qc-Dvx"/>
@@ -2811,7 +2828,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lSk-jz-YbC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3761" y="-229"/>
+            <point key="canvasLocation" x="3760.8695652173915" y="-229.01785714285714"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="URD-Bp-hjY">
