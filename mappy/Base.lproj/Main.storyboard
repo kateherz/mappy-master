@@ -1463,13 +1463,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="juneauAK" translatesAutoresizingMaskIntoConstraints="NO" id="bOr-cD-rsU">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="411"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="juneauAK" translatesAutoresizingMaskIntoConstraints="NO" id="bOr-cD-rsU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="410" id="E2A-y6-Vkf"/>
+                                    <constraint firstAttribute="width" constant="414" id="Zeu-xy-ROd"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2e-RI-xma">
-                                <rect key="frame" x="35" y="332" width="345" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2e-RI-xma">
+                                <rect key="frame" x="30" y="334" width="354" height="65"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Juneau, Alaska">
                                         <attributes>
@@ -1481,9 +1483,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUS-4b-Mfq">
-                                <rect key="frame" x="20" y="438" width="91" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUS-4b-Mfq">
+                                <rect key="frame" x="20" y="440" width="94" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="FOOD">
                                         <attributes>
@@ -1494,9 +1495,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DGA-I2-y8b">
-                                <rect key="frame" x="20" y="485" width="265" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DGA-I2-y8b">
+                                <rect key="frame" x="20" y="484" width="264" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$ - Tracy King Crab Shack">
@@ -1512,9 +1512,8 @@
                                     <action selector="food1:" destination="bgM-6P-41T" eventType="touchUpInside" id="0b2-s3-tuN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yN-hk-cBK">
-                                <rect key="frame" x="20" y="570" width="125" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yN-hk-cBK">
+                                <rect key="frame" x="30" y="570" width="99" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$$ - SALT">
@@ -1530,9 +1529,8 @@
                                     <action selector="food3:" destination="bgM-6P-41T" eventType="touchUpInside" id="Mgl-4C-aHG"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOY-kX-suX">
-                                <rect key="frame" x="20" y="621" width="93" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOY-kX-suX">
+                                <rect key="frame" x="20" y="623" width="94" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="HOTEL">
                                         <attributes>
@@ -1544,9 +1542,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PmE-I1-tqe">
-                                <rect key="frame" x="20" y="524" width="314" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PmE-I1-tqe">
+                                <rect key="frame" x="15" y="527" width="314" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$ - Roma Bistro on The Wharf">
@@ -1562,9 +1559,8 @@
                                     <action selector="food2:" destination="bgM-6P-41T" eventType="touchUpInside" id="ipU-xU-ffJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eu5-04-BeA">
-                                <rect key="frame" x="35" y="668" width="213" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eu5-04-BeA">
+                                <rect key="frame" x="35" y="667" width="214" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$ - The Driftwood Hotel">
@@ -1580,9 +1576,8 @@
                                     <action selector="hotel1:" destination="bgM-6P-41T" eventType="touchUpInside" id="NDN-aQ-9Z1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="efz-Tg-vHs">
-                                <rect key="frame" x="35" y="714" width="288" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="efz-Tg-vHs">
+                                <rect key="frame" x="35" y="710" width="289" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$ - Auke Lake Bed &amp; Breakfast">
@@ -1598,9 +1593,8 @@
                                     <action selector="hotel2:" destination="bgM-6P-41T" eventType="touchUpInside" id="Yoc-RO-Cgr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xvk-xt-4jh">
-                                <rect key="frame" x="35" y="760" width="269" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xvk-xt-4jh">
+                                <rect key="frame" x="35" y="753" width="269" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$$ - Four Points by Sheraton">
@@ -1616,8 +1610,59 @@
                                     <action selector="hotel3:" destination="bgM-6P-41T" eventType="touchUpInside" id="SZ2-fH-D01"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rGj-c7-uSe">
+                                <rect key="frame" x="300" y="840" width="89" height="31.5"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="kCK-LO-a9S"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Smb-Jj-bug" firstAttribute="trailing" secondItem="rGj-c7-uSe" secondAttribute="trailing" constant="25" id="0Dd-eT-M8N"/>
+                            <constraint firstItem="efz-Tg-vHs" firstAttribute="leading" secondItem="Smb-Jj-bug" secondAttribute="leading" constant="35" id="1BD-AA-8TC"/>
+                            <constraint firstItem="Smb-Jj-bug" firstAttribute="trailing" secondItem="9yN-hk-cBK" secondAttribute="trailing" constant="285" id="32U-XH-jWd"/>
+                            <constraint firstItem="Smb-Jj-bug" firstAttribute="trailing" secondItem="Xvk-xt-4jh" secondAttribute="trailing" constant="110" id="3wM-zG-X2c"/>
+                            <constraint firstItem="Eu5-04-BeA" firstAttribute="leading" secondItem="Smb-Jj-bug" secondAttribute="leading" constant="35" id="5jh-F7-tjZ"/>
+                            <constraint firstItem="Smb-Jj-bug" firstAttribute="trailing" secondItem="PmE-I1-tqe" secondAttribute="trailing" constant="85" id="64X-f9-dOr"/>
+                            <constraint firstItem="DGA-I2-y8b" firstAttribute="top" secondItem="hUS-4b-Mfq" secondAttribute="bottom" constant="5" id="8fP-Zg-bmT"/>
+                            <constraint firstItem="Smb-Jj-bug" firstAttribute="trailing" secondItem="gOY-kX-suX" secondAttribute="trailing" constant="300" id="Awd-Yk-q00"/>
+                            <constraint firstItem="Smb-Jj-bug" firstAttribute="trailing" secondItem="Eu5-04-BeA" secondAttribute="trailing" constant="165" id="CYJ-2p-rA0"/>
+                            <constraint firstItem="Xvk-xt-4jh" firstAttribute="top" secondItem="efz-Tg-vHs" secondAttribute="bottom" constant="5" id="DXQ-18-27x"/>
+                            <constraint firstItem="hUS-4b-Mfq" firstAttribute="leading" secondItem="Smb-Jj-bug" secondAttribute="leading" constant="20" id="Idh-xH-blL"/>
+                            <constraint firstItem="DGA-I2-y8b" firstAttribute="leading" secondItem="Smb-Jj-bug" secondAttribute="leading" constant="20" id="Io5-nE-w2b"/>
+                            <constraint firstItem="PmE-I1-tqe" firstAttribute="top" secondItem="DGA-I2-y8b" secondAttribute="bottom" constant="5" id="KTL-tB-wtu"/>
+                            <constraint firstItem="N2e-RI-xma" firstAttribute="leading" secondItem="Smb-Jj-bug" secondAttribute="leading" constant="30" id="Ks4-CH-pF7"/>
+                            <constraint firstItem="Smb-Jj-bug" firstAttribute="trailing" secondItem="N2e-RI-xma" secondAttribute="trailing" constant="30" id="L2X-Ks-lYo"/>
+                            <constraint firstItem="hUS-4b-Mfq" firstAttribute="top" secondItem="bOr-cD-rsU" secondAttribute="bottom" constant="30" id="LBP-6r-rPi"/>
+                            <constraint firstItem="Smb-Jj-bug" firstAttribute="trailing" secondItem="DGA-I2-y8b" secondAttribute="trailing" constant="130" id="MsY-dO-zSk"/>
+                            <constraint firstItem="rGj-c7-uSe" firstAttribute="leading" secondItem="Smb-Jj-bug" secondAttribute="leading" constant="300" id="O8U-lW-9NG"/>
+                            <constraint firstItem="gOY-kX-suX" firstAttribute="top" secondItem="9yN-hk-cBK" secondAttribute="bottom" constant="15" id="OZG-H3-tD4"/>
+                            <constraint firstItem="bOr-cD-rsU" firstAttribute="leading" secondItem="Smb-Jj-bug" secondAttribute="leading" id="Ow3-Gd-9dF"/>
+                            <constraint firstItem="Xvk-xt-4jh" firstAttribute="leading" secondItem="Smb-Jj-bug" secondAttribute="leading" constant="35" id="OyO-lo-d89"/>
+                            <constraint firstItem="efz-Tg-vHs" firstAttribute="top" secondItem="Eu5-04-BeA" secondAttribute="bottom" constant="5" id="Pwh-3a-2PV"/>
+                            <constraint firstItem="gOY-kX-suX" firstAttribute="leading" secondItem="Smb-Jj-bug" secondAttribute="leading" constant="20" id="RV6-KP-vRF"/>
+                            <constraint firstItem="N2e-RI-xma" firstAttribute="top" secondItem="Smb-Jj-bug" secondAttribute="top" constant="290" id="SAG-Sz-S2a"/>
+                            <constraint firstItem="PmE-I1-tqe" firstAttribute="leading" secondItem="Smb-Jj-bug" secondAttribute="leading" constant="15" id="SsJ-Y0-4Co"/>
+                            <constraint firstItem="rGj-c7-uSe" firstAttribute="top" secondItem="bOr-cD-rsU" secondAttribute="bottom" constant="430" id="XHq-iE-Z0h"/>
+                            <constraint firstItem="9yN-hk-cBK" firstAttribute="top" secondItem="PmE-I1-tqe" secondAttribute="bottom" constant="5" id="c1T-Ds-HG1"/>
+                            <constraint firstItem="Eu5-04-BeA" firstAttribute="top" secondItem="gOY-kX-suX" secondAttribute="bottom" constant="5" id="ceO-5w-rrV"/>
+                            <constraint firstItem="9yN-hk-cBK" firstAttribute="leading" secondItem="Smb-Jj-bug" secondAttribute="leading" constant="30" id="f9Q-0R-0Ox"/>
+                            <constraint firstItem="bOr-cD-rsU" firstAttribute="top" secondItem="UJ4-ez-t0L" secondAttribute="top" id="mW8-l0-Da0"/>
+                            <constraint firstItem="bOr-cD-rsU" firstAttribute="trailing" secondItem="Smb-Jj-bug" secondAttribute="trailing" id="qQI-Ie-1oY"/>
+                            <constraint firstItem="Smb-Jj-bug" firstAttribute="trailing" secondItem="efz-Tg-vHs" secondAttribute="trailing" constant="90" id="qVI-Ec-S9G"/>
+                            <constraint firstItem="Smb-Jj-bug" firstAttribute="trailing" secondItem="hUS-4b-Mfq" secondAttribute="trailing" constant="300" id="tTS-ut-POp"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Smb-Jj-bug"/>
                     </view>
                 </viewController>
@@ -1633,9 +1678,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Iceland" translatesAutoresizingMaskIntoConstraints="NO" id="Zob-9R-5EZ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="409"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Iceland" translatesAutoresizingMaskIntoConstraints="NO" id="Zob-9R-5EZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="410" id="NUP-Vf-bAk"/>
+                                    <constraint firstAttribute="width" constant="414" id="lsa-OR-BAx"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63n-Ay-7Mc">
                                 <rect key="frame" x="63" y="56" width="289" height="46"/>
@@ -1650,9 +1698,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfs-JW-cF9">
-                                <rect key="frame" x="38" y="445" width="91" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfs-JW-cF9">
+                                <rect key="frame" x="20" y="440" width="94" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="FOOD">
                                         <attributes>
@@ -1663,9 +1710,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zs1-Md-I1Q">
-                                <rect key="frame" x="57" y="492" width="265" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zs1-Md-I1Q">
+                                <rect key="frame" x="20" y="484" width="314" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$ - 101 Reykjavik Street Food">
@@ -1681,9 +1727,8 @@
                                     <action selector="food1:" destination="A3z-Xc-PIq" eventType="touchUpInside" id="S3h-x3-Gqt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lJJ-fO-ggB">
-                                <rect key="frame" x="53" y="577" width="213" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lJJ-fO-ggB">
+                                <rect key="frame" x="20" y="570" width="254" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$$ - Grillmarkaourinn">
@@ -1699,9 +1744,8 @@
                                     <action selector="food3:" destination="A3z-Xc-PIq" eventType="touchUpInside" id="h92-DW-uwN"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSM-Io-OLN">
-                                <rect key="frame" x="38" y="628" width="93" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSM-Io-OLN">
+                                <rect key="frame" x="20" y="623" width="94" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="HOTEL">
                                         <attributes>
@@ -1713,9 +1757,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mgS-fl-Ubu">
-                                <rect key="frame" x="38" y="533" width="147" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mgS-fl-Ubu">
+                                <rect key="frame" x="20" y="527" width="169" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content=" $$ - BrewDog">
@@ -1731,9 +1774,8 @@
                                     <action selector="food2:" destination="A3z-Xc-PIq" eventType="touchUpInside" id="pjh-At-R9X"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fIC-uh-1cV">
-                                <rect key="frame" x="53" y="675" width="159" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fIC-uh-1cV">
+                                <rect key="frame" x="20" y="667" width="214" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$ - Hotel Odinsve">
@@ -1749,9 +1791,8 @@
                                     <action selector="hotel1:" destination="A3z-Xc-PIq" eventType="touchUpInside" id="S99-YR-0Op"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="smw-g3-J5q">
-                                <rect key="frame" x="53" y="767" width="270" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="smw-g3-J5q">
+                                <rect key="frame" x="20" y="753" width="324" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$$ - Kvosin Downtown Hotel">
@@ -1767,9 +1808,8 @@
                                     <action selector="hotel3:" destination="A3z-Xc-PIq" eventType="touchUpInside" id="Hz4-cB-dv4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NXx-Yh-dBf">
-                                <rect key="frame" x="53" y="721" width="247" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NXx-Yh-dBf">
+                                <rect key="frame" x="20" y="710" width="304" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$ - Grand Hotel Reykjavik">
@@ -1785,8 +1825,56 @@
                                     <action selector="hotel2:" destination="A3z-Xc-PIq" eventType="touchUpInside" id="D3Q-fQ-bmY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ilM-S0-XaZ">
+                                <rect key="frame" x="300" y="840" width="89" height="31.5"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Cpy-6a-2ic"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="s4I-5R-Wvn" firstAttribute="trailing" secondItem="pfs-JW-cF9" secondAttribute="trailing" constant="300" id="0Wc-l3-wBI"/>
+                            <constraint firstItem="ilM-S0-XaZ" firstAttribute="top" secondItem="Zob-9R-5EZ" secondAttribute="bottom" constant="430" id="0Zc-0K-YqA"/>
+                            <constraint firstItem="s4I-5R-Wvn" firstAttribute="trailing" secondItem="NXx-Yh-dBf" secondAttribute="trailing" constant="90" id="1Vv-lR-Eyf"/>
+                            <constraint firstItem="mgS-fl-Ubu" firstAttribute="leading" secondItem="s4I-5R-Wvn" secondAttribute="leading" constant="20" id="2ak-T1-4in"/>
+                            <constraint firstItem="s4I-5R-Wvn" firstAttribute="trailing" secondItem="Zs1-Md-I1Q" secondAttribute="trailing" constant="80" id="6eb-NF-Czt"/>
+                            <constraint firstItem="QSM-Io-OLN" firstAttribute="leading" secondItem="s4I-5R-Wvn" secondAttribute="leading" constant="20" id="7UD-IL-kym"/>
+                            <constraint firstItem="lJJ-fO-ggB" firstAttribute="top" secondItem="mgS-fl-Ubu" secondAttribute="bottom" constant="5" id="CyM-0R-zf8"/>
+                            <constraint firstItem="NXx-Yh-dBf" firstAttribute="top" secondItem="fIC-uh-1cV" secondAttribute="bottom" constant="5" id="GrH-tR-bRj"/>
+                            <constraint firstItem="fIC-uh-1cV" firstAttribute="leading" secondItem="s4I-5R-Wvn" secondAttribute="leading" constant="20" id="KeG-Sw-uuc"/>
+                            <constraint firstItem="QSM-Io-OLN" firstAttribute="top" secondItem="lJJ-fO-ggB" secondAttribute="bottom" constant="15" id="N9V-b8-1od"/>
+                            <constraint firstItem="s4I-5R-Wvn" firstAttribute="trailing" secondItem="mgS-fl-Ubu" secondAttribute="trailing" constant="225" id="NrI-Ka-bkb"/>
+                            <constraint firstItem="s4I-5R-Wvn" firstAttribute="trailing" secondItem="lJJ-fO-ggB" secondAttribute="trailing" constant="140" id="PfM-6L-2ms"/>
+                            <constraint firstItem="s4I-5R-Wvn" firstAttribute="trailing" secondItem="ilM-S0-XaZ" secondAttribute="trailing" constant="25" id="Wkh-De-LoM"/>
+                            <constraint firstItem="Zob-9R-5EZ" firstAttribute="trailing" secondItem="s4I-5R-Wvn" secondAttribute="trailing" id="Ziu-7R-xTu"/>
+                            <constraint firstItem="s4I-5R-Wvn" firstAttribute="trailing" secondItem="fIC-uh-1cV" secondAttribute="trailing" constant="180" id="boa-Sb-gQQ"/>
+                            <constraint firstItem="Zs1-Md-I1Q" firstAttribute="leading" secondItem="s4I-5R-Wvn" secondAttribute="leading" constant="20" id="da3-27-azY"/>
+                            <constraint firstItem="Zob-9R-5EZ" firstAttribute="leading" secondItem="s4I-5R-Wvn" secondAttribute="leading" id="edJ-km-tHw"/>
+                            <constraint firstItem="NXx-Yh-dBf" firstAttribute="leading" secondItem="s4I-5R-Wvn" secondAttribute="leading" constant="20" id="hFw-6G-TT8"/>
+                            <constraint firstItem="pfs-JW-cF9" firstAttribute="top" secondItem="Zob-9R-5EZ" secondAttribute="bottom" constant="30" id="ikJ-NH-1ma"/>
+                            <constraint firstItem="s4I-5R-Wvn" firstAttribute="trailing" secondItem="smw-g3-J5q" secondAttribute="trailing" constant="70" id="jk3-OK-gCH"/>
+                            <constraint firstItem="lJJ-fO-ggB" firstAttribute="leading" secondItem="s4I-5R-Wvn" secondAttribute="leading" constant="20" id="l1e-5h-beJ"/>
+                            <constraint firstItem="pfs-JW-cF9" firstAttribute="leading" secondItem="s4I-5R-Wvn" secondAttribute="leading" constant="20" id="ngm-Nz-aE1"/>
+                            <constraint firstItem="ilM-S0-XaZ" firstAttribute="leading" secondItem="s4I-5R-Wvn" secondAttribute="leading" constant="300" id="oWz-3f-poO"/>
+                            <constraint firstItem="s4I-5R-Wvn" firstAttribute="trailing" secondItem="QSM-Io-OLN" secondAttribute="trailing" constant="300" id="okR-0R-9YR"/>
+                            <constraint firstItem="fIC-uh-1cV" firstAttribute="top" secondItem="QSM-Io-OLN" secondAttribute="bottom" constant="5" id="oxX-RR-CDm"/>
+                            <constraint firstItem="Zob-9R-5EZ" firstAttribute="top" secondItem="2FL-vC-v6Y" secondAttribute="top" id="reZ-hm-zUV"/>
+                            <constraint firstItem="Zs1-Md-I1Q" firstAttribute="top" secondItem="pfs-JW-cF9" secondAttribute="bottom" constant="5" id="tGz-oK-Kd9"/>
+                            <constraint firstItem="smw-g3-J5q" firstAttribute="leading" secondItem="s4I-5R-Wvn" secondAttribute="leading" constant="20" id="vP8-2E-aiA"/>
+                            <constraint firstItem="mgS-fl-Ubu" firstAttribute="top" secondItem="Zs1-Md-I1Q" secondAttribute="bottom" constant="5" id="ylN-b3-Jg4"/>
+                            <constraint firstItem="smw-g3-J5q" firstAttribute="top" secondItem="NXx-Yh-dBf" secondAttribute="bottom" constant="5" id="ys7-iz-j1m"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="s4I-5R-Wvn"/>
                     </view>
                 </viewController>
@@ -2139,13 +2227,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="switzerland" translatesAutoresizingMaskIntoConstraints="NO" id="DBS-00-c9C">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="411"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="switzerland" translatesAutoresizingMaskIntoConstraints="NO" id="DBS-00-c9C">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="410" id="vJk-IM-zii"/>
+                                    <constraint firstAttribute="width" constant="414" id="vWg-wu-ama"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PhT-Fb-rxS">
-                                <rect key="frame" x="20" y="438" width="91" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PhT-Fb-rxS">
+                                <rect key="frame" x="20" y="440" width="94" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="FOOD">
                                         <attributes>
@@ -2156,9 +2246,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LGc-ap-qFb">
-                                <rect key="frame" x="20" y="570" width="197" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LGc-ap-qFb">
+                                <rect key="frame" x="20" y="570" width="224" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$$ - Cheval Blanc">
@@ -2174,9 +2263,8 @@
                                     <action selector="food3:" destination="dY6-Gx-Ad3" eventType="touchUpInside" id="4Ss-vw-Ozd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ife-Uz-exR">
-                                <rect key="frame" x="20" y="621" width="93" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ife-Uz-exR">
+                                <rect key="frame" x="20" y="623" width="94" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="HOTEL">
                                         <attributes>
@@ -2188,9 +2276,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGY-Zo-HfB">
-                                <rect key="frame" x="20" y="524" width="155" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGY-Zo-HfB">
+                                <rect key="frame" x="20" y="527" width="179" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$ - Haus Hiltl">
@@ -2206,9 +2293,8 @@
                                     <action selector="food2:" destination="dY6-Gx-Ad3" eventType="touchUpInside" id="yj3-dq-73W"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dWX-A2-iN8">
-                                <rect key="frame" x="21" y="668" width="273" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dWX-A2-iN8">
+                                <rect key="frame" x="20" y="667" width="294" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$ - Mountain Lodge Sedan">
@@ -2224,9 +2310,8 @@
                                     <action selector="hotel1:" destination="dY6-Gx-Ad3" eventType="touchUpInside" id="OlG-Xc-Xbr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jdb-8G-cBF">
-                                <rect key="frame" x="-23" y="714" width="286" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jdb-8G-cBF">
+                                <rect key="frame" x="20" y="710" width="214" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$ - Radisson Blue">
@@ -2242,9 +2327,8 @@
                                     <action selector="hotel2:" destination="dY6-Gx-Ad3" eventType="touchUpInside" id="Pyc-gA-xPH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zZg-UZ-s41">
-                                <rect key="frame" x="-23" y="760" width="270" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zZg-UZ-s41">
+                                <rect key="frame" x="20" y="753" width="194" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$$ - The Omnia">
@@ -2260,9 +2344,8 @@
                                     <action selector="hotel3:" destination="dY6-Gx-Ad3" eventType="touchUpInside" id="DaF-qz-2mv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hUa-O4-03t">
-                                <rect key="frame" x="0.0" y="485" width="265" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hUa-O4-03t">
+                                <rect key="frame" x="20" y="484" width="244" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$ - Bahnhof Wiedikon">
@@ -2278,9 +2361,8 @@
                                     <action selector="food1:" destination="dY6-Gx-Ad3" eventType="touchUpInside" id="HsX-rE-LeG"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqm-nX-bAu">
-                                <rect key="frame" x="13" y="44" width="389" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqm-nX-bAu">
+                                <rect key="frame" x="10" y="44" width="394" height="54"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Zermatt, Switzerland">
                                         <attributes>
@@ -2293,8 +2375,59 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MbW-cz-mjE">
+                                <rect key="frame" x="300" y="840" width="89" height="31.5"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="x8b-0R-YPi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="DBS-00-c9C" firstAttribute="leading" secondItem="b51-Pd-dUw" secondAttribute="leading" id="0gH-Ic-MdT"/>
+                            <constraint firstItem="xGY-Zo-HfB" firstAttribute="leading" secondItem="b51-Pd-dUw" secondAttribute="leading" constant="20" id="1Wv-AR-2qX"/>
+                            <constraint firstItem="ife-Uz-exR" firstAttribute="top" secondItem="LGc-ap-qFb" secondAttribute="bottom" constant="15" id="5OZ-qK-1Yw"/>
+                            <constraint firstItem="Iqm-nX-bAu" firstAttribute="leading" secondItem="b51-Pd-dUw" secondAttribute="leading" constant="10" id="780-s5-SUx"/>
+                            <constraint firstItem="jdb-8G-cBF" firstAttribute="leading" secondItem="gYs-iF-A5G" secondAttribute="leading" constant="20" id="7U1-dI-CLf"/>
+                            <constraint firstItem="DBS-00-c9C" firstAttribute="trailing" secondItem="b51-Pd-dUw" secondAttribute="trailing" id="8ja-uf-4Is"/>
+                            <constraint firstItem="MbW-cz-mjE" firstAttribute="leading" secondItem="b51-Pd-dUw" secondAttribute="leading" constant="300" id="Bh5-VB-4dv"/>
+                            <constraint firstItem="b51-Pd-dUw" firstAttribute="trailing" secondItem="hUa-O4-03t" secondAttribute="trailing" constant="150" id="DKB-uX-Lww"/>
+                            <constraint firstItem="PhT-Fb-rxS" firstAttribute="top" secondItem="DBS-00-c9C" secondAttribute="bottom" constant="30" id="DzG-Ly-ZqM"/>
+                            <constraint firstItem="hUa-O4-03t" firstAttribute="leading" secondItem="b51-Pd-dUw" secondAttribute="leading" constant="20" id="EmV-UT-Ycr"/>
+                            <constraint firstItem="b51-Pd-dUw" firstAttribute="trailing" secondItem="xGY-Zo-HfB" secondAttribute="trailing" constant="215" id="G9g-0O-3VC"/>
+                            <constraint firstItem="zZg-UZ-s41" firstAttribute="top" secondItem="jdb-8G-cBF" secondAttribute="bottom" constant="5" id="MAi-6U-E9A"/>
+                            <constraint firstItem="b51-Pd-dUw" firstAttribute="trailing" secondItem="MbW-cz-mjE" secondAttribute="trailing" constant="25" id="Mw0-JK-NEU"/>
+                            <constraint firstItem="b51-Pd-dUw" firstAttribute="trailing" secondItem="LGc-ap-qFb" secondAttribute="trailing" constant="170" id="Qvc-Ux-tO5"/>
+                            <constraint firstItem="Iqm-nX-bAu" firstAttribute="top" secondItem="b51-Pd-dUw" secondAttribute="top" id="Uys-SX-P1q"/>
+                            <constraint firstItem="ife-Uz-exR" firstAttribute="leading" secondItem="b51-Pd-dUw" secondAttribute="leading" constant="20" id="Xx1-05-ao6"/>
+                            <constraint firstItem="jdb-8G-cBF" firstAttribute="top" secondItem="dWX-A2-iN8" secondAttribute="bottom" constant="5" id="ZbW-ho-dPu"/>
+                            <constraint firstItem="LGc-ap-qFb" firstAttribute="top" secondItem="xGY-Zo-HfB" secondAttribute="bottom" constant="5" id="aAY-ch-sfu"/>
+                            <constraint firstItem="PhT-Fb-rxS" firstAttribute="leading" secondItem="b51-Pd-dUw" secondAttribute="leading" constant="20" id="aQ0-Nk-iCP"/>
+                            <constraint firstItem="b51-Pd-dUw" firstAttribute="trailing" secondItem="ife-Uz-exR" secondAttribute="trailing" constant="300" id="d5z-rJ-E3r"/>
+                            <constraint firstItem="b51-Pd-dUw" firstAttribute="trailing" secondItem="PhT-Fb-rxS" secondAttribute="trailing" constant="300" id="dHQ-Bo-3qP"/>
+                            <constraint firstItem="zZg-UZ-s41" firstAttribute="leading" secondItem="gYs-iF-A5G" secondAttribute="leading" constant="20" id="eIV-pF-j4D"/>
+                            <constraint firstItem="b51-Pd-dUw" firstAttribute="trailing" secondItem="dWX-A2-iN8" secondAttribute="trailing" constant="100" id="eP4-aG-goc"/>
+                            <constraint firstItem="MbW-cz-mjE" firstAttribute="top" secondItem="DBS-00-c9C" secondAttribute="bottom" constant="430" id="h4M-yy-w6w"/>
+                            <constraint firstItem="dWX-A2-iN8" firstAttribute="top" secondItem="ife-Uz-exR" secondAttribute="bottom" constant="5" id="jbs-kh-9ut"/>
+                            <constraint firstItem="LGc-ap-qFb" firstAttribute="leading" secondItem="b51-Pd-dUw" secondAttribute="leading" constant="20" id="kaG-RN-EF5"/>
+                            <constraint firstItem="DBS-00-c9C" firstAttribute="top" secondItem="gYs-iF-A5G" secondAttribute="top" id="lov-47-gfa"/>
+                            <constraint firstItem="xGY-Zo-HfB" firstAttribute="top" secondItem="hUa-O4-03t" secondAttribute="bottom" constant="5" id="pfc-oA-GbJ"/>
+                            <constraint firstItem="hUa-O4-03t" firstAttribute="top" secondItem="PhT-Fb-rxS" secondAttribute="bottom" constant="5" id="rbz-BZ-NqM"/>
+                            <constraint firstItem="dWX-A2-iN8" firstAttribute="leading" secondItem="b51-Pd-dUw" secondAttribute="leading" constant="20" id="rcc-hp-1pT"/>
+                            <constraint firstItem="b51-Pd-dUw" firstAttribute="trailing" secondItem="Iqm-nX-bAu" secondAttribute="trailing" constant="10" id="s1M-Ba-e56"/>
+                            <constraint firstItem="b51-Pd-dUw" firstAttribute="trailing" secondItem="jdb-8G-cBF" secondAttribute="trailing" constant="180" id="yv4-dJ-W8M"/>
+                            <constraint firstItem="b51-Pd-dUw" firstAttribute="trailing" secondItem="zZg-UZ-s41" secondAttribute="trailing" constant="200" id="z8l-ht-y0h"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="b51-Pd-dUw"/>
                     </view>
                 </viewController>
@@ -2464,6 +2597,20 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3cj-9n-Rb9">
+                                <rect key="frame" x="307" y="830" width="89" height="31.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="g30-lR-j1g"/>
@@ -2633,6 +2780,20 @@
                                 <connections>
                                     <action selector="hotel3:" destination="A2u-XS-L5T" eventType="touchUpInside" id="ggC-ao-j3S"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GOF-mG-QHc">
+                                <rect key="frame" x="313" y="829" width="89" height="31.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -3018,6 +3179,20 @@
                                     <action selector="hotel3:" destination="ioN-4F-5gn" eventType="touchUpInside" id="AWd-zH-gql"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fw5-hw-gbP">
+                                <rect key="frame" x="313" y="821" width="89" height="31.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="uDA-E3-Z26"/>
@@ -3187,6 +3362,20 @@
                                 <connections>
                                     <action selector="hotel3:" destination="xlF-1E-GLt" eventType="touchUpInside" id="AZd-8P-Y1p"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7bC-gG-geG">
+                                <rect key="frame" x="317" y="819" width="89" height="31.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -3573,6 +3762,20 @@
                                     <action selector="hotel3:" destination="33J-J4-dky" eventType="touchUpInside" id="Fzn-EV-UjJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Lh-MP-kmT">
+                                <rect key="frame" x="315" y="835" width="89" height="31.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6d7-qX-bX1"/>
@@ -3742,6 +3945,20 @@
                                 <connections>
                                     <action selector="hotel3:" destination="1dJ-0C-nN4" eventType="touchUpInside" id="gL8-Br-weg"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vld-qa-bG6">
+                                <rect key="frame" x="297" y="828" width="89" height="31.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -3913,6 +4130,20 @@
                                     <action selector="food3:" destination="0Pd-NV-3Bl" eventType="touchUpInside" id="4Mw-Dm-U5I"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OW4-6j-5b6">
+                                <rect key="frame" x="301" y="821" width="89" height="31.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="x73-z0-FQB"/>
@@ -4082,6 +4313,20 @@
                                 <connections>
                                     <action selector="food3:" destination="AKA-ne-qex" eventType="touchUpInside" id="hPI-Pw-wtl"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xvo-Sf-Xry">
+                                <rect key="frame" x="315" y="819" width="89" height="31.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -4253,6 +4498,20 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o0r-dy-qxr">
+                                <rect key="frame" x="297" y="819" width="89" height="31.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="3US-FB-yZ5"/>
@@ -4423,6 +4682,20 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3gv-pg-Eie">
+                                <rect key="frame" x="303" y="833" width="89" height="31.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="nmh-t9-He1"/>
@@ -4651,7 +4924,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MFp-Ft-YN7"/>
+        <segue reference="x8b-0R-YPi"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AppLogoNoIcon" width="588" height="168"/>
