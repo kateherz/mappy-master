@@ -2651,13 +2651,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="madrid" translatesAutoresizingMaskIntoConstraints="NO" id="G2e-IM-Cnu">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="411"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="madrid" translatesAutoresizingMaskIntoConstraints="NO" id="G2e-IM-Cnu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="410" id="pih-gL-PS6"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4i-ku-ziw">
-                                <rect key="frame" x="35" y="332" width="330" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4i-ku-ziw">
+                                <rect key="frame" x="35" y="334" width="344" height="65"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Madrid, Spain">
                                         <attributes>
@@ -2669,9 +2670,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPB-jN-Lxg">
-                                <rect key="frame" x="20" y="438" width="91" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPB-jN-Lxg">
+                                <rect key="frame" x="20" y="440" width="94" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="FOOD">
                                         <attributes>
@@ -2682,9 +2682,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u5C-86-NUa">
-                                <rect key="frame" x="9" y="485" width="265" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u5C-86-NUa">
+                                <rect key="frame" x="10" y="484" width="264" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$ - Los Desamparados">
@@ -2700,9 +2699,8 @@
                                     <action selector="food1:" destination="pug-h4-SxN" eventType="touchUpInside" id="gS1-xW-kNU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z7E-zy-kYR">
-                                <rect key="frame" x="20" y="570" width="243" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z7E-zy-kYR">
+                                <rect key="frame" x="20" y="570" width="244" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$$ - Sobrino de Botin">
@@ -2718,9 +2716,8 @@
                                     <action selector="food3:" destination="pug-h4-SxN" eventType="touchUpInside" id="86a-9z-5H6"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xbu-0s-LCH">
-                                <rect key="frame" x="20" y="621" width="93" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xbu-0s-LCH">
+                                <rect key="frame" x="20" y="623" width="94" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="HOTEL">
                                         <attributes>
@@ -2732,9 +2729,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hGr-cw-OBN">
-                                <rect key="frame" x="20" y="524" width="151" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hGr-cw-OBN">
+                                <rect key="frame" x="20" y="527" width="154" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$ - Moratin">
@@ -2750,9 +2746,8 @@
                                     <action selector="food2:" destination="pug-h4-SxN" eventType="touchUpInside" id="fcg-fL-HgJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="376-wt-STO">
-                                <rect key="frame" x="35" y="668" width="333" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="376-wt-STO">
+                                <rect key="frame" x="40" y="667" width="334" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$ - Jardines de Sabatini Apartosuites">
@@ -2768,9 +2763,8 @@
                                     <action selector="hotel1:" destination="pug-h4-SxN" eventType="touchUpInside" id="9oV-nG-6ir"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mz6-mw-gtX">
-                                <rect key="frame" x="35" y="714" width="250" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mz6-mw-gtX">
+                                <rect key="frame" x="35" y="710" width="259" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$ - Aloft Madrid Gran Via">
@@ -2786,9 +2780,8 @@
                                     <action selector="hotel2:" destination="pug-h4-SxN" eventType="touchUpInside" id="5VB-KZ-Sjg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iyv-ZL-4mP">
-                                <rect key="frame" x="35" y="760" width="189" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iyv-ZL-4mP">
+                                <rect key="frame" x="40" y="753" width="184" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$$ - Hotel Atlantico">
@@ -2804,9 +2797,8 @@
                                     <action selector="hotel3:" destination="pug-h4-SxN" eventType="touchUpInside" id="eQk-ed-exC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="caL-by-RSK">
-                                <rect key="frame" x="303" y="839" width="85" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="caL-by-RSK">
+                                <rect key="frame" x="300" y="840" width="89" height="31.5"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Restart Quiz">
@@ -2823,6 +2815,41 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Lnv-qc-Dvx" firstAttribute="trailing" secondItem="caL-by-RSK" secondAttribute="trailing" constant="25" id="00Q-AM-dDS"/>
+                            <constraint firstItem="Xbu-0s-LCH" firstAttribute="leading" secondItem="Lnv-qc-Dvx" secondAttribute="leading" constant="20" id="00x-Jj-DzG"/>
+                            <constraint firstItem="Lnv-qc-Dvx" firstAttribute="trailing" secondItem="376-wt-STO" secondAttribute="trailing" constant="40" id="1kM-s5-q02"/>
+                            <constraint firstItem="Mz6-mw-gtX" firstAttribute="leading" secondItem="Lnv-qc-Dvx" secondAttribute="leading" constant="35" id="4RV-zi-eJG"/>
+                            <constraint firstItem="376-wt-STO" firstAttribute="leading" secondItem="Lnv-qc-Dvx" secondAttribute="leading" constant="40" id="5hD-Rk-WHE"/>
+                            <constraint firstItem="LPB-jN-Lxg" firstAttribute="top" secondItem="G2e-IM-Cnu" secondAttribute="bottom" constant="30" id="7lK-8g-HGr"/>
+                            <constraint firstItem="u5C-86-NUa" firstAttribute="top" secondItem="LPB-jN-Lxg" secondAttribute="bottom" constant="5" id="AFE-yg-6qz"/>
+                            <constraint firstItem="N4i-ku-ziw" firstAttribute="top" secondItem="Lnv-qc-Dvx" secondAttribute="top" constant="290" id="CQ4-gw-I9w"/>
+                            <constraint firstItem="z7E-zy-kYR" firstAttribute="top" secondItem="hGr-cw-OBN" secondAttribute="bottom" constant="5" id="EUM-nU-XD1"/>
+                            <constraint firstItem="Lnv-qc-Dvx" firstAttribute="trailing" secondItem="N4i-ku-ziw" secondAttribute="trailing" constant="35" id="GqE-eZ-UpF"/>
+                            <constraint firstItem="G2e-IM-Cnu" firstAttribute="trailing" secondItem="Lnv-qc-Dvx" secondAttribute="trailing" id="Hse-U1-mnz"/>
+                            <constraint firstItem="N4i-ku-ziw" firstAttribute="leading" secondItem="Lnv-qc-Dvx" secondAttribute="leading" constant="35" id="J6V-ud-WeC"/>
+                            <constraint firstItem="Lnv-qc-Dvx" firstAttribute="trailing" secondItem="iyv-ZL-4mP" secondAttribute="trailing" constant="190" id="KGe-qS-Gbh"/>
+                            <constraint firstItem="Lnv-qc-Dvx" firstAttribute="trailing" secondItem="u5C-86-NUa" secondAttribute="trailing" constant="140" id="KKF-47-dgE"/>
+                            <constraint firstItem="LPB-jN-Lxg" firstAttribute="leading" secondItem="Lnv-qc-Dvx" secondAttribute="leading" constant="20" id="LLb-dh-5Z1"/>
+                            <constraint firstItem="Lnv-qc-Dvx" firstAttribute="trailing" secondItem="hGr-cw-OBN" secondAttribute="trailing" constant="240" id="MHw-dg-lxV"/>
+                            <constraint firstItem="caL-by-RSK" firstAttribute="top" secondItem="376-wt-STO" secondAttribute="bottom" constant="135" id="MJQ-Id-zUb"/>
+                            <constraint firstItem="Xbu-0s-LCH" firstAttribute="top" secondItem="z7E-zy-kYR" secondAttribute="bottom" constant="15" id="Mdg-sx-mqH"/>
+                            <constraint firstItem="iyv-ZL-4mP" firstAttribute="leading" secondItem="Lnv-qc-Dvx" secondAttribute="leading" constant="40" id="POW-7m-c35"/>
+                            <constraint firstItem="u5C-86-NUa" firstAttribute="leading" secondItem="Lnv-qc-Dvx" secondAttribute="leading" constant="10" id="TZi-oM-M2L"/>
+                            <constraint firstItem="z7E-zy-kYR" firstAttribute="leading" secondItem="Lnv-qc-Dvx" secondAttribute="leading" constant="20" id="ZTh-V8-4pP"/>
+                            <constraint firstItem="hGr-cw-OBN" firstAttribute="leading" secondItem="Lnv-qc-Dvx" secondAttribute="leading" constant="20" id="aSF-i1-Rcg"/>
+                            <constraint firstItem="Mz6-mw-gtX" firstAttribute="top" secondItem="376-wt-STO" secondAttribute="bottom" constant="5" id="b64-dU-i75"/>
+                            <constraint firstItem="Lnv-qc-Dvx" firstAttribute="trailing" secondItem="Mz6-mw-gtX" secondAttribute="trailing" constant="120" id="dHd-gK-SCp"/>
+                            <constraint firstItem="G2e-IM-Cnu" firstAttribute="leading" secondItem="Lnv-qc-Dvx" secondAttribute="leading" id="eZn-0I-PuK"/>
+                            <constraint firstItem="iyv-ZL-4mP" firstAttribute="top" secondItem="Mz6-mw-gtX" secondAttribute="bottom" constant="5" id="fUb-Hc-21R"/>
+                            <constraint firstItem="376-wt-STO" firstAttribute="top" secondItem="Xbu-0s-LCH" secondAttribute="bottom" constant="5" id="gRi-rK-lyQ"/>
+                            <constraint firstItem="Lnv-qc-Dvx" firstAttribute="trailing" secondItem="Xbu-0s-LCH" secondAttribute="trailing" constant="300" id="me8-yy-SRN"/>
+                            <constraint firstItem="hGr-cw-OBN" firstAttribute="top" secondItem="u5C-86-NUa" secondAttribute="bottom" constant="5" id="nsp-tq-j5B"/>
+                            <constraint firstItem="caL-by-RSK" firstAttribute="leading" secondItem="Lnv-qc-Dvx" secondAttribute="leading" constant="300" id="qlb-oH-w7u"/>
+                            <constraint firstItem="Lnv-qc-Dvx" firstAttribute="trailing" secondItem="z7E-zy-kYR" secondAttribute="trailing" constant="150" id="tTl-zv-lF4"/>
+                            <constraint firstItem="G2e-IM-Cnu" firstAttribute="top" secondItem="n8a-CA-133" secondAttribute="top" id="wZX-Ne-j1e"/>
+                            <constraint firstItem="Lnv-qc-Dvx" firstAttribute="trailing" secondItem="LPB-jN-Lxg" secondAttribute="trailing" constant="300" id="zwm-Dv-Fk8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Lnv-qc-Dvx"/>
                     </view>
                 </viewController>
@@ -3178,27 +3205,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paris" translatesAutoresizingMaskIntoConstraints="NO" id="nLz-lf-ab3">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="411"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paris" translatesAutoresizingMaskIntoConstraints="NO" id="nLz-lf-ab3">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="410" id="MPa-Mc-1mU"/>
+                                    <constraint firstAttribute="width" constant="414" id="Pg1-Z2-X1Y"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAy-eD-q8C">
-                                <rect key="frame" x="62" y="346" width="291" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAy-eD-q8C">
+                                <rect key="frame" x="35" y="334" width="344" height="65"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Paris, France">
                                         <attributes>
-                                            <color key="NSColor" red="0.16774353384971619" green="0.174826979637146" blue="0.26554790139198303" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.1703489125" green="0.174475193" blue="0.2666778266" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <font key="NSFont" size="50" name="Futura-Medium"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqy-Xu-bXc">
-                                <rect key="frame" x="20" y="438" width="91" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqy-Xu-bXc">
+                                <rect key="frame" x="20" y="440" width="94" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="FOOD">
                                         <attributes>
@@ -3209,9 +3237,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U1b-vG-5EL">
-                                <rect key="frame" x="20" y="485" width="118" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U1b-vG-5EL">
+                                <rect key="frame" x="20" y="484" width="121" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$ - Filakia">
@@ -3227,9 +3254,8 @@
                                     <action selector="food1:" destination="vfR-hF-aJU" eventType="touchUpInside" id="gkA-sx-HM7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uiw-SO-kU3">
-                                <rect key="frame" x="20" y="570" width="316" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uiw-SO-kU3">
+                                <rect key="frame" x="18" y="570" width="319" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$$ - Josephine Chez Dumonet">
@@ -3245,9 +3271,8 @@
                                     <action selector="food3:" destination="vfR-hF-aJU" eventType="touchUpInside" id="MTu-6i-YQB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQS-0j-sQl">
-                                <rect key="frame" x="20" y="621" width="93" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQS-0j-sQl">
+                                <rect key="frame" x="20" y="623" width="94" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="HOTEL">
                                         <attributes>
@@ -3259,9 +3284,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XED-cZ-OMB">
-                                <rect key="frame" x="20" y="524" width="228" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XED-cZ-OMB">
+                                <rect key="frame" x="20" y="527" width="229" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$ - World Food Barn">
@@ -3277,9 +3301,8 @@
                                     <action selector="food2:" destination="vfR-hF-aJU" eventType="touchUpInside" id="cgk-RS-Bet"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DZy-gy-5Op">
-                                <rect key="frame" x="35" y="668" width="188" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DZy-gy-5Op">
+                                <rect key="frame" x="35" y="667" width="189" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$ - Hotel Britannique">
@@ -3295,9 +3318,8 @@
                                     <action selector="hotel1:" destination="vfR-hF-aJU" eventType="touchUpInside" id="xi9-dk-Axv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3zL-LJ-1q9">
-                                <rect key="frame" x="35" y="714" width="213" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3zL-LJ-1q9">
+                                <rect key="frame" x="35" y="710" width="214" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$ - Maison Astor Paris">
@@ -3313,9 +3335,8 @@
                                     <action selector="hotel2:" destination="vfR-hF-aJU" eventType="touchUpInside" id="tvi-Si-WdX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0iS-gN-xzG">
-                                <rect key="frame" x="35" y="760" width="153" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0iS-gN-xzG">
+                                <rect key="frame" x="35" y="753" width="154" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$$ - The Westin">
@@ -3331,8 +3352,59 @@
                                     <action selector="hotel3:" destination="vfR-hF-aJU" eventType="touchUpInside" id="deW-3Z-djq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Hy-vR-AwH">
+                                <rect key="frame" x="300" y="840" width="89" height="31.5"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="oXb-Md-TPS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="DZy-gy-5Op" firstAttribute="leading" secondItem="RgT-aJ-K5k" secondAttribute="leading" constant="35" id="1Oj-5A-scb"/>
+                            <constraint firstItem="RgT-aJ-K5k" firstAttribute="trailing" secondItem="0iS-gN-xzG" secondAttribute="trailing" constant="225" id="5y7-2Z-7gD"/>
+                            <constraint firstItem="0Hy-vR-AwH" firstAttribute="leading" secondItem="RgT-aJ-K5k" secondAttribute="leading" constant="300" id="7k4-nP-80b"/>
+                            <constraint firstItem="U1b-vG-5EL" firstAttribute="top" secondItem="pqy-Xu-bXc" secondAttribute="bottom" constant="5" id="9R9-hf-Iys"/>
+                            <constraint firstItem="RgT-aJ-K5k" firstAttribute="trailing" secondItem="AQS-0j-sQl" secondAttribute="trailing" constant="300" id="C1u-3z-uFK"/>
+                            <constraint firstItem="RgT-aJ-K5k" firstAttribute="trailing" secondItem="U1b-vG-5EL" secondAttribute="trailing" constant="273" id="Cxb-8T-DDt"/>
+                            <constraint firstItem="qAy-eD-q8C" firstAttribute="leading" secondItem="RgT-aJ-K5k" secondAttribute="leading" constant="35" id="H0k-NP-ode"/>
+                            <constraint firstItem="0iS-gN-xzG" firstAttribute="top" secondItem="3zL-LJ-1q9" secondAttribute="bottom" constant="5" id="J95-7C-DLw"/>
+                            <constraint firstItem="RgT-aJ-K5k" firstAttribute="trailing" secondItem="3zL-LJ-1q9" secondAttribute="trailing" constant="165" id="KvC-Eo-fuB"/>
+                            <constraint firstItem="AQS-0j-sQl" firstAttribute="top" secondItem="uiw-SO-kU3" secondAttribute="bottom" constant="15" id="Pwe-kA-pUe"/>
+                            <constraint firstItem="pqy-Xu-bXc" firstAttribute="leading" secondItem="RgT-aJ-K5k" secondAttribute="leading" constant="20" id="Q5O-0v-xqG"/>
+                            <constraint firstItem="nLz-lf-ab3" firstAttribute="top" secondItem="He0-67-wLo" secondAttribute="top" id="WE0-Lw-VSX"/>
+                            <constraint firstItem="3zL-LJ-1q9" firstAttribute="top" secondItem="DZy-gy-5Op" secondAttribute="bottom" constant="5" id="Wnb-P9-dyf"/>
+                            <constraint firstItem="0iS-gN-xzG" firstAttribute="leading" secondItem="RgT-aJ-K5k" secondAttribute="leading" constant="35" id="a1O-DM-RjK"/>
+                            <constraint firstItem="pqy-Xu-bXc" firstAttribute="top" secondItem="nLz-lf-ab3" secondAttribute="bottom" constant="30" id="a3O-Ta-85b"/>
+                            <constraint firstItem="nLz-lf-ab3" firstAttribute="trailing" secondItem="RgT-aJ-K5k" secondAttribute="trailing" id="bUl-cF-0c5"/>
+                            <constraint firstItem="RgT-aJ-K5k" firstAttribute="trailing" secondItem="uiw-SO-kU3" secondAttribute="trailing" constant="77" id="bpz-UF-3fL"/>
+                            <constraint firstItem="XED-cZ-OMB" firstAttribute="leading" secondItem="RgT-aJ-K5k" secondAttribute="leading" constant="20" id="c6O-KS-9f4"/>
+                            <constraint firstItem="qAy-eD-q8C" firstAttribute="top" secondItem="RgT-aJ-K5k" secondAttribute="top" constant="290" id="dd9-WQ-rHh"/>
+                            <constraint firstItem="nLz-lf-ab3" firstAttribute="leading" secondItem="RgT-aJ-K5k" secondAttribute="leading" id="dpi-op-sug"/>
+                            <constraint firstItem="0Hy-vR-AwH" firstAttribute="top" secondItem="nLz-lf-ab3" secondAttribute="bottom" constant="430" id="eiu-5h-20h"/>
+                            <constraint firstItem="3zL-LJ-1q9" firstAttribute="leading" secondItem="RgT-aJ-K5k" secondAttribute="leading" constant="35" id="gQv-CR-FGw"/>
+                            <constraint firstItem="RgT-aJ-K5k" firstAttribute="trailing" secondItem="0Hy-vR-AwH" secondAttribute="trailing" constant="25" id="gyK-Be-ogx"/>
+                            <constraint firstItem="DZy-gy-5Op" firstAttribute="top" secondItem="AQS-0j-sQl" secondAttribute="bottom" constant="5" id="icP-wd-DBd"/>
+                            <constraint firstItem="RgT-aJ-K5k" firstAttribute="trailing" secondItem="XED-cZ-OMB" secondAttribute="trailing" constant="165" id="kdw-4V-VwB"/>
+                            <constraint firstItem="U1b-vG-5EL" firstAttribute="leading" secondItem="RgT-aJ-K5k" secondAttribute="leading" constant="20" id="kiu-nS-4fT"/>
+                            <constraint firstItem="RgT-aJ-K5k" firstAttribute="trailing" secondItem="pqy-Xu-bXc" secondAttribute="trailing" constant="300" id="kjJ-9a-w4U"/>
+                            <constraint firstItem="XED-cZ-OMB" firstAttribute="top" secondItem="U1b-vG-5EL" secondAttribute="bottom" constant="5" id="lQ1-K9-Co8"/>
+                            <constraint firstItem="uiw-SO-kU3" firstAttribute="leading" secondItem="RgT-aJ-K5k" secondAttribute="leading" constant="18" id="mYh-NC-dmA"/>
+                            <constraint firstItem="RgT-aJ-K5k" firstAttribute="trailing" secondItem="DZy-gy-5Op" secondAttribute="trailing" constant="190" id="qnN-w6-DK3"/>
+                            <constraint firstItem="uiw-SO-kU3" firstAttribute="top" secondItem="XED-cZ-OMB" secondAttribute="bottom" constant="5" id="shN-X6-UMy"/>
+                            <constraint firstItem="RgT-aJ-K5k" firstAttribute="trailing" secondItem="qAy-eD-q8C" secondAttribute="trailing" constant="35" id="tV9-GA-470"/>
+                            <constraint firstItem="AQS-0j-sQl" firstAttribute="leading" secondItem="RgT-aJ-K5k" secondAttribute="leading" constant="20" id="vyr-ga-wGX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="RgT-aJ-K5k"/>
                     </view>
                 </viewController>
@@ -4368,13 +4440,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bologna" translatesAutoresizingMaskIntoConstraints="NO" id="P0H-JL-X4F">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="411"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANe-l8-fZA">
-                                <rect key="frame" x="20" y="438" width="91" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANe-l8-fZA">
+                                <rect key="frame" x="20" y="440" width="94" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="FOOD">
                                         <attributes>
@@ -4385,9 +4452,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cmQ-wv-qcb">
-                                <rect key="frame" x="20" y="485" width="103" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cmQ-wv-qcb">
+                                <rect key="frame" x="20" y="484" width="104" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$ - Certo">
@@ -4403,9 +4469,8 @@
                                     <action selector="food1:" destination="mVJ-En-wuc" eventType="touchUpInside" id="PeO-sG-hgB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I7b-cx-1uv">
-                                <rect key="frame" x="0.0" y="567" width="287" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I7b-cx-1uv">
+                                <rect key="frame" x="0.0" y="570" width="289" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$$ - All'Osteria Bottega">
@@ -4421,9 +4486,8 @@
                                     <action selector="food3:" destination="mVJ-En-wuc" eventType="touchUpInside" id="aeG-Qi-MbJ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngf-bC-rlN">
-                                <rect key="frame" x="20" y="621" width="93" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngf-bC-rlN">
+                                <rect key="frame" x="20" y="623" width="94" height="39"/>
                                 <attributedString key="attributedText">
                                     <fragment content="HOTEL">
                                         <attributes>
@@ -4435,9 +4499,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hzE-Zn-Wac">
-                                <rect key="frame" x="20" y="524" width="243" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hzE-Zn-Wac">
+                                <rect key="frame" x="20" y="527" width="244" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$ - Gessetto Restaurant">
@@ -4453,9 +4516,8 @@
                                     <action selector="food2:" destination="mVJ-En-wuc" eventType="touchUpInside" id="O29-uG-r1q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BjT-qY-Cv6">
-                                <rect key="frame" x="15" y="668" width="182" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BjT-qY-Cv6">
+                                <rect key="frame" x="15" y="667" width="184" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$ - Portici Hotel">
@@ -4471,9 +4533,8 @@
                                     <action selector="hotel1:" destination="mVJ-En-wuc" eventType="touchUpInside" id="4Vu-R0-ec7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Pn-25-qbp">
-                                <rect key="frame" x="7" y="714" width="280" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Pn-25-qbp">
+                                <rect key="frame" x="5" y="710" width="284" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$ - Gregorian Bingham">
@@ -4489,9 +4550,8 @@
                                     <action selector="hotel2:" destination="mVJ-En-wuc" eventType="touchUpInside" id="7uF-vO-5Nc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zvn-R2-rus">
-                                <rect key="frame" x="35" y="760" width="363" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zvn-R2-rus">
+                                <rect key="frame" x="35" y="753" width="364" height="38"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="$$$ - Grand Hotel Majestic gia Baglioni">
@@ -4507,22 +4567,81 @@
                                     <action selector="hotel3:" destination="mVJ-En-wuc" eventType="touchUpInside" id="OCM-JZ-Zjd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gr0-Yp-2fa">
-                                <rect key="frame" x="15" y="44" width="383" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gr0-Yp-2fa">
+                                <rect key="frame" x="35" y="44" width="344" height="57"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Bologna, Italy">
                                         <attributes>
-                                            <color key="NSColor" red="0.16774353384971619" green="0.174826979637146" blue="0.26554790139198303" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.1703489125" green="0.174475193" blue="0.2666778266" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <font key="NSFont" size="43" name="Futura-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="0.65341395547945202" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="1"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DRz-1f-2cl">
+                                <rect key="frame" x="300" y="840" width="89" height="31.5"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Restart Quiz">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98461395502090454" green="0.57219380140304565" blue="0.59597176313400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="MFp-Ft-YN7"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bologna" translatesAutoresizingMaskIntoConstraints="NO" id="P0H-JL-X4F">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="410" id="MPV-De-msU"/>
+                                    <constraint firstAttribute="width" constant="414" id="Owf-HD-2iq"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.2351809923" green="0.24308920719999999" blue="0.36376749920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="0vT-1N-RjW" firstAttribute="trailing" secondItem="I7b-cx-1uv" secondAttribute="trailing" constant="125" id="371-gL-YC4"/>
+                            <constraint firstItem="cmQ-wv-qcb" firstAttribute="leading" secondItem="0vT-1N-RjW" secondAttribute="leading" constant="20" id="97K-2N-EFT"/>
+                            <constraint firstItem="Gr0-Yp-2fa" firstAttribute="leading" secondItem="0vT-1N-RjW" secondAttribute="leading" constant="35" id="9qe-SP-a1n"/>
+                            <constraint firstItem="0vT-1N-RjW" firstAttribute="trailing" secondItem="zvn-R2-rus" secondAttribute="trailing" constant="15" id="HFm-mI-Un0"/>
+                            <constraint firstItem="0vT-1N-RjW" firstAttribute="trailing" secondItem="cmQ-wv-qcb" secondAttribute="trailing" constant="290" id="JOU-vC-33b"/>
+                            <constraint firstItem="BjT-qY-Cv6" firstAttribute="leading" secondItem="0vT-1N-RjW" secondAttribute="leading" constant="15" id="NqP-bJ-12w"/>
+                            <constraint firstItem="ngf-bC-rlN" firstAttribute="leading" secondItem="0vT-1N-RjW" secondAttribute="leading" constant="20" id="Nv0-yo-8z5"/>
+                            <constraint firstItem="P0H-JL-X4F" firstAttribute="trailing" secondItem="0vT-1N-RjW" secondAttribute="trailing" id="Q3Y-M8-G6K"/>
+                            <constraint firstItem="cmQ-wv-qcb" firstAttribute="top" secondItem="ANe-l8-fZA" secondAttribute="bottom" constant="5" id="QWA-eF-Gn3"/>
+                            <constraint firstItem="P0H-JL-X4F" firstAttribute="top" secondItem="leU-TN-iDD" secondAttribute="top" id="Rfs-zY-X29"/>
+                            <constraint firstItem="I7b-cx-1uv" firstAttribute="top" secondItem="hzE-Zn-Wac" secondAttribute="bottom" constant="5" id="SKC-QM-35A"/>
+                            <constraint firstItem="0vT-1N-RjW" firstAttribute="trailing" secondItem="ANe-l8-fZA" secondAttribute="trailing" constant="300" id="T5S-Oe-cJa"/>
+                            <constraint firstItem="zvn-R2-rus" firstAttribute="top" secondItem="2Pn-25-qbp" secondAttribute="bottom" constant="5" id="UtM-Gh-Zoh"/>
+                            <constraint firstItem="0vT-1N-RjW" firstAttribute="trailing" secondItem="Gr0-Yp-2fa" secondAttribute="trailing" constant="35" id="VSC-jM-Ec9"/>
+                            <constraint firstItem="I7b-cx-1uv" firstAttribute="leading" secondItem="0vT-1N-RjW" secondAttribute="leading" id="Vkg-wi-nrO"/>
+                            <constraint firstItem="BjT-qY-Cv6" firstAttribute="top" secondItem="ngf-bC-rlN" secondAttribute="bottom" constant="5" id="Xpv-ZG-jdX"/>
+                            <constraint firstItem="Gr0-Yp-2fa" firstAttribute="top" secondItem="0vT-1N-RjW" secondAttribute="top" id="ZRx-BL-G7e"/>
+                            <constraint firstItem="ANe-l8-fZA" firstAttribute="top" secondItem="P0H-JL-X4F" secondAttribute="bottom" constant="30" id="bzI-uy-2VT"/>
+                            <constraint firstItem="DRz-1f-2cl" firstAttribute="top" secondItem="P0H-JL-X4F" secondAttribute="bottom" constant="430" id="cEp-mg-X0Z"/>
+                            <constraint firstItem="zvn-R2-rus" firstAttribute="leading" secondItem="0vT-1N-RjW" secondAttribute="leading" constant="35" id="dqz-MA-sYw"/>
+                            <constraint firstItem="2Pn-25-qbp" firstAttribute="leading" secondItem="0vT-1N-RjW" secondAttribute="leading" constant="5" id="gyO-Xb-teS"/>
+                            <constraint firstItem="2Pn-25-qbp" firstAttribute="top" secondItem="BjT-qY-Cv6" secondAttribute="bottom" constant="5" id="hYj-7G-1ZA"/>
+                            <constraint firstItem="hzE-Zn-Wac" firstAttribute="leading" secondItem="0vT-1N-RjW" secondAttribute="leading" constant="20" id="iCR-aP-F73"/>
+                            <constraint firstItem="0vT-1N-RjW" firstAttribute="trailing" secondItem="2Pn-25-qbp" secondAttribute="trailing" constant="125" id="mdv-th-8tT"/>
+                            <constraint firstItem="ngf-bC-rlN" firstAttribute="top" secondItem="I7b-cx-1uv" secondAttribute="bottom" constant="15" id="qBB-o0-P2C"/>
+                            <constraint firstItem="0vT-1N-RjW" firstAttribute="trailing" secondItem="BjT-qY-Cv6" secondAttribute="trailing" constant="215" id="sDU-pi-yHF"/>
+                            <constraint firstItem="0vT-1N-RjW" firstAttribute="trailing" secondItem="hzE-Zn-Wac" secondAttribute="trailing" constant="150" id="tJk-Oy-Sct"/>
+                            <constraint firstItem="P0H-JL-X4F" firstAttribute="leading" secondItem="0vT-1N-RjW" secondAttribute="leading" id="uQR-BJ-03c"/>
+                            <constraint firstItem="0vT-1N-RjW" firstAttribute="trailing" secondItem="ngf-bC-rlN" secondAttribute="trailing" constant="300" id="urJ-MQ-9XR"/>
+                            <constraint firstItem="0vT-1N-RjW" firstAttribute="trailing" secondItem="DRz-1f-2cl" secondAttribute="trailing" constant="25" id="w9t-0L-ceT"/>
+                            <constraint firstItem="DRz-1f-2cl" firstAttribute="leading" secondItem="0vT-1N-RjW" secondAttribute="leading" constant="300" id="wri-XA-wQY"/>
+                            <constraint firstItem="hzE-Zn-Wac" firstAttribute="top" secondItem="cmQ-wv-qcb" secondAttribute="bottom" constant="5" id="yjg-gE-k8w"/>
+                            <constraint firstItem="ANe-l8-fZA" firstAttribute="leading" secondItem="0vT-1N-RjW" secondAttribute="leading" constant="20" id="zcp-uL-kK5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="0vT-1N-RjW"/>
                     </view>
                 </viewController>
@@ -4531,6 +4650,9 @@
             <point key="canvasLocation" x="3761" y="5713"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="MFp-Ft-YN7"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="AppLogoNoIcon" width="588" height="168"/>
         <image name="Iceland" width="512" height="341"/>
