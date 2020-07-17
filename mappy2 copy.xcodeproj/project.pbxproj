@@ -28,6 +28,11 @@
 		B044AD5B24C121E700E98A35 /* DCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044AD5A24C121E700E98A35 /* DCViewController.swift */; };
 		B044AD5D24C1253200E98A35 /* MadridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044AD5C24C1253200E98A35 /* MadridViewController.swift */; };
 		B044AD5F24C1280800E98A35 /* ParisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044AD5E24C1280800E98A35 /* ParisViewController.swift */; };
+		B044AD6124C1389500E98A35 /* DubaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044AD6024C1389500E98A35 /* DubaiViewController.swift */; };
+		B044AD6324C13BD100E98A35 /* YosemiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044AD6224C13BD100E98A35 /* YosemiteViewController.swift */; };
+		B044AD6524C13E1C00E98A35 /* CancunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044AD6424C13E1C00E98A35 /* CancunViewController.swift */; };
+		B044AD6724C1413600E98A35 /* HawaiiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044AD6624C1413600E98A35 /* HawaiiViewController.swift */; };
+		B044AD6924C1432600E98A35 /* SpainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044AD6824C1432600E98A35 /* SpainViewController.swift */; };
 		B0C9125324BE2B7E004649E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9125224BE2B7E004649E5 /* AppDelegate.swift */; };
 		B0C9125524BE2B7E004649E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9125424BE2B7E004649E5 /* SceneDelegate.swift */; };
 		B0C9125724BE2B7E004649E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9125624BE2B7E004649E5 /* ViewController.swift */; };
@@ -60,6 +65,11 @@
 		B044AD5A24C121E700E98A35 /* DCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCViewController.swift; sourceTree = "<group>"; };
 		B044AD5C24C1253200E98A35 /* MadridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadridViewController.swift; sourceTree = "<group>"; };
 		B044AD5E24C1280800E98A35 /* ParisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParisViewController.swift; sourceTree = "<group>"; };
+		B044AD6024C1389500E98A35 /* DubaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubaiViewController.swift; sourceTree = "<group>"; };
+		B044AD6224C13BD100E98A35 /* YosemiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YosemiteViewController.swift; sourceTree = "<group>"; };
+		B044AD6424C13E1C00E98A35 /* CancunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancunViewController.swift; sourceTree = "<group>"; };
+		B044AD6624C1413600E98A35 /* HawaiiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawaiiViewController.swift; sourceTree = "<group>"; };
+		B044AD6824C1432600E98A35 /* SpainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpainViewController.swift; sourceTree = "<group>"; };
 		B0C9124F24BE2B7E004649E5 /* mappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C9125224BE2B7E004649E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0C9125424BE2B7E004649E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +96,7 @@
 		B0C9124624BE2B7E004649E5 = {
 			isa = PBXGroup;
 			children = (
+				B044AD6224C13BD100E98A35 /* YosemiteViewController.swift */,
 				B044AD4424BFB27C00E98A35 /* SummerQ1ViewController.swift */,
 				B0C9125124BE2B7E004649E5 /* mappy */,
 				B0C9125024BE2B7E004649E5 /* Products */,
@@ -114,11 +125,15 @@
 				B044AD3E24BF8DF000E98A35 /* WinterCityViewController.swift */,
 				B044AD3624BF846600E98A35 /* WinterNatureViewController.swift */,
 				B0C9125E24BE2B8C004649E5 /* Assets.xcassets */,
+				B044AD6824C1432600E98A35 /* SpainViewController.swift */,
 				B044AD4A24BFB71E00E98A35 /* SummerNatureAloneViewController.swift */,
 				B044AD5624C0DC3C00E98A35 /* IcelandViewController.swift */,
 				B0C9126024BE2B8C004649E5 /* LaunchScreen.storyboard */,
+				B044AD6424C13E1C00E98A35 /* CancunViewController.swift */,
 				B044AD4224BF914500E98A35 /* WinterCityShoppingViewController.swift */,
 				B044AD4E24BFBA5D00E98A35 /* SummerCityCultureViewController.swift */,
+				B044AD6024C1389500E98A35 /* DubaiViewController.swift */,
+				B044AD6624C1413600E98A35 /* HawaiiViewController.swift */,
 				B044AD4C24BFB8EF00E98A35 /* SummerCityViewController.swift */,
 				B044AD5C24C1253200E98A35 /* MadridViewController.swift */,
 				B044AD5024BFBBB700E98A35 /* SummerCityShoppingViewController.swift */,
@@ -171,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B0C9124A24BE2B7E004649E5 /* Build configuration list for PBXProject "mappy2" */;
+			buildConfigurationList = B0C9124A24BE2B7E004649E5 /* Build configuration list for PBXProject "mappy2 copy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,9 +229,13 @@
 				B044AD4924BFB55F00E98A35 /* SummerNatureFriendViewController.swift in Sources */,
 				B044AD4324BF914500E98A35 /* WinterCityShoppingViewController.swift in Sources */,
 				B044AD5F24C1280800E98A35 /* ParisViewController.swift in Sources */,
+				B044AD6524C13E1C00E98A35 /* CancunViewController.swift in Sources */,
 				B044AD3524BF81C800E98A35 /* WinterQ1ViewController.swift in Sources */,
+				B044AD6124C1389500E98A35 /* DubaiViewController.swift in Sources */,
+				B044AD6324C13BD100E98A35 /* YosemiteViewController.swift in Sources */,
 				B044AD4B24BFB71E00E98A35 /* SummerNatureAloneViewController.swift in Sources */,
 				B0C9125D24BE2B7E004649E5 /* mappy.xcdatamodeld in Sources */,
+				B044AD6724C1413600E98A35 /* HawaiiViewController.swift in Sources */,
 				B044AD5724C0DC3C00E98A35 /* IcelandViewController.swift in Sources */,
 				B044AD5524C0D63F00E98A35 /* SwitzerlandViewController.swift in Sources */,
 				B044AD5D24C1253200E98A35 /* MadridViewController.swift in Sources */,
@@ -229,6 +248,7 @@
 				B0C9126A24BEA973004649E5 /* QuestionOneViewController.swift in Sources */,
 				B044AD5124BFBBB700E98A35 /* SummerCityShoppingViewController.swift in Sources */,
 				B044AD4524BFB27C00E98A35 /* SummerQ1ViewController.swift in Sources */,
+				B044AD6924C1432600E98A35 /* SpainViewController.swift in Sources */,
 				B044AD3924BF869500E98A35 /* WinterNatureAloneViewController.swift in Sources */,
 				B0C9125524BE2B7E004649E5 /* SceneDelegate.swift in Sources */,
 				B044AD4F24BFBA5D00E98A35 /* SummerCityCultureViewController.swift in Sources */,
@@ -411,7 +431,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0C9124A24BE2B7E004649E5 /* Build configuration list for PBXProject "mappy2" */ = {
+		B0C9124A24BE2B7E004649E5 /* Build configuration list for PBXProject "mappy2 copy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0C9126424BE2B8C004649E5 /* Debug */,
